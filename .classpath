@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/Selenium lib/selenium-server-standalone-2.52.0.jar" sourcepath="F:/Selenium website jar files/Selenium lib/selenium-java-2.46.0-srcs.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/jxl-2.4.2.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/pio jar/poi-3.17/usepoi/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium website jar files/Selenium lib/testng-6.8.8.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
