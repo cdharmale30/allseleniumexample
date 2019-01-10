@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class CalendarHandling {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
+		//System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 
 		driver.get("https://www.redbus.in/?gclid=EAIaIQobChMIoaih1Pjd3QIVgSQrCh026gl7EAAYASAAEgK7NPD_BwE");

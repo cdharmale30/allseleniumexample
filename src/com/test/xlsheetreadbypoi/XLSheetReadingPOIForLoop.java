@@ -17,7 +17,7 @@ public class XLSheetReadingPOIForLoop {
 	public static void main(String[] args) throws Exception{
 	      
 	        	 
-			File src = new File("I:\\All Eclipse Code3\\SeleniumExamples\\poiread.xlsx");
+			File src = new File("C:\\Users\\chetan\\Downloads\\poiread.xlsx");
 			FileInputStream fis = new FileInputStream(src);
 			XSSFWorkbook wb = new XSSFWorkbook(fis);
 			XSSFSheet sh1 = wb.getSheetAt(0);
@@ -28,8 +28,8 @@ public class XLSheetReadingPOIForLoop {
 			int col= row.getLastCellNum();
 			System.out.println("The L=No of Colomn are"+col);
 
-			for (int i = 0; i <= rows; i++) {
-				for (int j=0;j<=col;j++) {
+			for (int i = 0; i <= rows-1; i++) {
+				for (int j=0;j<=col-1;j++) {
 					
 				
 				String data0 = sh1.getRow(i).getCell(j).getStringCellValue();
@@ -40,7 +40,8 @@ public class XLSheetReadingPOIForLoop {
                 
                 String data2= sh1.getRow(i).getCell(j).getStringCellValue();
                 System.out.println("The Col Coumt "+i+ "and colom is "+j+ " is "+data2);
-                
+                String data3= sh1.getRow(i).getCell(j).getStringCellValue();
+                System.out.println("The Col Coumt "+i+ "and colom is "+j+ " is "+data3);
 			} 
 				 
 			}	  
