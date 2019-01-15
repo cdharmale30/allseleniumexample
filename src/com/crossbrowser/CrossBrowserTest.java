@@ -23,6 +23,7 @@ public class CrossBrowserTest {
 			// create firefox instance
 			System.setProperty("webdriver.firefox.marionette", "C:\\geckodriver.exe");
 			driver = new FirefoxDriver();
+			//test from github
 		}
 		// Check if parameter passed as 'chrome'
 		else if (browser.equalsIgnoreCase("chrome")) {
